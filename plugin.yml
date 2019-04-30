@@ -1,0 +1,6 @@
+name: EpicMurderMystery
+version: 0.0.1
+main: epic.main.MurderMistery
+
+
+softdepends: [HolographicDisplays]
