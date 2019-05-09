@@ -23,6 +23,10 @@ public class Timmer extends BukkitRunnable{
 		this.runTaskTimerAsynchronously(Ultimate.getInstance(), 0L, 20L);
 	}
 	
+	public void cancel(){
+		this.cancel();
+	}
+	
 	@Override
   public void run() {
 		if(seconds == 60){
